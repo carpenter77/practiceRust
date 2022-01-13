@@ -1,0 +1,14 @@
+[package]
+name = "rust-p2p-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libp2p = { version = "0.39"}
+futures = "0.3.1"
+void = "1"
+log = "0.4"
+env_logger = "0.8.2"
+async-std = "1.7.0"
+smallvec = "1.0"
+futures-timer = "3"
